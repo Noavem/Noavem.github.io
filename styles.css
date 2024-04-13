@@ -338,13 +338,13 @@ p {
 }
 
 .skillsflex .skillelement{
-  margin-bottom: 10px; /* Adjust the value to increase or decrease vertical space */
+  margin-bottom: 10px;
 }
 
 .skillsflex .skillelement {
-  flex: 1 0 calc(33.33% - 10px); /* Adjust the percentage and margin as needed */
-  max-width: calc(33.33% - 10px); /* Adjust the percentage and margin as needed */
-  margin: 5px; /* Adjust the margin as needed */
+  flex: 1 0 calc(33.33% - 10px);
+  max-width: calc(33.33% - 10px);
+  margin: 5px;
 }
 
 .se2 {
