@@ -330,14 +330,25 @@ p {
   background-color: #F5F5F5;
   padding: 0.5rem;
   opacity: 75%;
+  text-align: center;
 }
 
 .skillelement h2 {
   margin-bottom: 0;
 }
 
+.skillsflex .skillelement{
+  margin-bottom: 10px; /* Adjust the value to increase or decrease vertical space */
+}
+
+.skillsflex .skillelement {
+  flex: 1 0 calc(33.33% - 10px); /* Adjust the percentage and margin as needed */
+  max-width: calc(33.33% - 10px); /* Adjust the percentage and margin as needed */
+  margin: 5px; /* Adjust the margin as needed */
+}
+
 .se2 {
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 
 ::-moz-selection {
