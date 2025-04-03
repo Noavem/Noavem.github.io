@@ -267,10 +267,7 @@ hr {
 .project-card {
   border-radius: 5px;
   border-width: 1px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1.25rem;
   background-color: #f2f2f27a;
   border-color: #E5E5E5;
   display: flex;
