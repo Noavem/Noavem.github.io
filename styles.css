@@ -34,6 +34,12 @@ h1 {
   align-items: center;
 }
 
+.nav-link {
+  font-weight: 600 !important;
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px !important;
+}
+
 @media screen and (max-width: 768px) {
   .nav-items {
     display: none !important;
@@ -89,7 +95,7 @@ h1 {
   }
 }
 .img-2 {
-  border-radius: 9999px;
+  border-radius: 0px;
   width: 64px;
   height: 64px;
   image-rendering: pixelated;
@@ -120,11 +126,27 @@ a:hover {
 h2 {
   font-weight: 600 !important;
   font-family: "Inter", sans-serif !important;
-  font-size: 15px !important;
+  font-size: 16px !important;
+}
+
+.skill {
+  font-size: 20px !important;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.project-title::after {
+  padding-left: 4px;
+  content: "\2197";
+}
+
+.outside-link::after {
+  padding-left: 4px;
+  content: "\2197";
 }
 
 .intro {
-  font-size: 22px !important;
+  font-size: 24px !important;
 }
 
 .p1 {
@@ -145,7 +167,7 @@ h2 {
 }
 
 .margin-l {
-  margin-left: 1rem;
+  margin-left: 30px;
 }
 
 #email {
