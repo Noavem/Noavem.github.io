@@ -291,11 +291,6 @@ hr {
 }
 
 .project-card {
-  border-radius: 5px;
-  border-width: 1px;
-  padding: 20px;
-  background-color: #f2f2f27a;
-  border-color: #E5E5E5;
   display: flex;
 }
 
