@@ -407,6 +407,28 @@ p {
   margin-bottom: 2rem;
 }
 
+.tech-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  color:RGB(66, 66, 66)
+}
+
+.tech-badge {
+  flex: 1 1 25%;
+  box-sizing: border-box;
+
+  margin: 0.25rem;
+  padding: 0.5rem 0.5rem;
+  white-space: nowrap;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  filter: drop-shadow(0px 3px 0px #0000001a);
+  transition: transform 100ms ease;
+  text-align: center;
+}
+
 .discovermore {
   width: 100%;
   margin-top: 1rem;
