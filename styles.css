@@ -414,6 +414,7 @@ p {
 }
 
 .tech-badge {
+  margin-top: 1.5rem;
   flex: 1 1 25%;
   box-sizing: border-box;
 
