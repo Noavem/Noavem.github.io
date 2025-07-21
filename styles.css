@@ -408,13 +408,13 @@ p {
 }
 
 .tech-buttons {
+  margin-top: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   color: #525252;
 }
 
 .tech-badge {
-  margin-top: 1.5rem;
   flex: 1 1 25%;
   box-sizing: border-box;
 
